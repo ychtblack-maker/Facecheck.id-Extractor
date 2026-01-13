@@ -1,3 +1,5 @@
+# Seems like Facecheck.id has updated their system. It appears the source URL is no longer encoded in the image data, thus this script no longer works :(
+
 # Facecheck.id-Extractor
 FacecheckID Extractor is a Python script that automates the extraction of source URLs from FaceCheck.id search results. By sending a POST request with a specified id_search, it decodes base64-encoded image data in the response to reveal embedded URLs. This script outputs the extracted URLs to a text file, making it easy to access the sources of search results for further analysis.
 
